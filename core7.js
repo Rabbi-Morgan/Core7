@@ -12,7 +12,8 @@ const bottomPos = about_cont.getBoundingClientRect().bottom + window.scrollY;
 const scrollReview = document.querySelector('.review_cont');
 const leftReview = document.getElementById('prev');
 const rightReview = document.getElementById('next');
-const navItems = document.querySelectorAll('.nav_list li a')
+const navItems = document.querySelectorAll('.nav_list li a');
+const contactUs = document.querySelectorAll('.contact--us');
 
 toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('open');
@@ -38,13 +39,25 @@ window.addEventListener('scroll', ()=> {
     about.forEach(imgs => {
         if(screen.width <= 500){
             if(this.scrollY >= bottomPos){
-            imgs.classList.add('scale');}
+                imgs.classList.add('scale');}
         }else {
             if(this.scrollY >= bottomPos){
             imgs.classList.add('scale');}
         }
     })   
 });
+// contact us section
+contactUs.forEach(contact => {
+    contact.addEventListener('click', ()=> {
+        document.querySelector('.contact_us_div').classList.add('show_us');
+        document.querySelector('body').classList.add('body--blur');
+    })
+});
+const times = document.getElementById('times-cont');
+times.addEventListener('click', ()=> {
+    document.querySelector('.contact_us_div').classList.remove('show_us');
+    document.querySelector('body').classList.remove('body--blur');
+})
 // for the carousel 
 
 rightReview.addEventListener('click', ()=> {
