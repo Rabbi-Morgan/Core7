@@ -62,6 +62,7 @@ times.addEventListener('click', ()=> {
 
 rightReview.addEventListener('click', ()=> {
     scrollReview.scrollLeft += 290;
+
     check();    
 });
 leftReview.addEventListener('click', ()=> {
@@ -80,3 +81,7 @@ function check() {
         prevH.classList.remove('move');
     }
 }
+// document.getElementById('contact_button').addEventListener('click', (e)=> {
+
+//     e.preventDefault()
+// })

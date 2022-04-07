@@ -1,0 +1,32 @@
+{
+  "name": "core7funitures",
+  "version": "1.0.0",
+  "description": "A site to get furnitures",
+  "main": "index.hmtl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabbi-Morgan/Core7.git"
+  },
+  "keywords": [
+    "furniture",
+    "make",
+    "furnitures",
+    "home",
+    "school",
+    "office"
+  ],
+  "author": "omobolaji anuoluwapo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rabbi-Morgan/Core7/issues"
+  },
+  "homepage": "https://github.com/Rabbi-Morgan/Core7#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.12.9"
+  }
+}

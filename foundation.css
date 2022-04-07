@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,400&family=Montserrat:ital,wght@0,100;0,700;0,800;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: var(--main_font_family);
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  /* colors */
+
+  --bg_color: #8d8e92;
+  --color1: #fff;
+  /* --color1: #b4c0d9; */
+  --text_color: #101c26;
+  --color2: #404b59;
+  --color3: #0d0d0d;
+  --color4: #51658c;
+  --blue: #1c7aff;
+  --sienna_brown: #c19a6b;
+  --wood_brown: #3f301d;
+  --almond_brown: rgb(234, 221, 202);
+  --main_font_family: "Poppins", sans-serif;
+  --header_font_family: "Merriweather", serif;
+  --body_font_family: "David Libre", serif;
+
+  /* Typography */
+
+  --great_z-index: 1000;
+  --under_z-index: 500;
+  --overlay_z-index: -1;
+  --bg_z-index: -2;
+  --normal_font: 1.4rem;
+  --small_font: 0.8rem;
+  --smallest_font: 0.6rem;
+  --large_font: 2.5rem;
+  --very_large_font: 3.5rem;
+  --very_bold_weight: 900;
+  --bold_weight: 700;
+  --normal_weight: 500;
+  --light_weight: 300;
+}
+html {
+  scroll-behavior: smooth;
+}
+body.no--scroll {
+  overflow: hidden;
+}

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
     <link rel="stylesheet" href="core7.css">
     <link rel="stylesheet" href="tools.css">
@@ -35,7 +36,7 @@
                 <div class="menu">
                     <ul class="nav_list">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                         <li><a href="#services">Product</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#" class="contact--us">Contact Us</a></li>
@@ -212,24 +213,16 @@
             <div>
                 <h4 class="foot_hds">About us</h4>
             <ul class="abu">
-                <li><a href="#">Our story</a></li>
-                <li><a href="#">Craftmanship</a></li>
-                <li><a href="#">Sustainabiliy</a></li>
-            </ul>
-            </div>
-            <div>
-                <h4 class="foot_hds">FAQ's</h4>
-            <ul class="support">
-                <li><a href="">Delivery and returns</a></li>
-                <li><a href="">Warranty</a></li>
-                <li><a href="">Pricing</a></li>
+                <li><a href="about.html">Our story</a></li>
+                <li><a href="about.html">Craftmanship</a></li>
+                <li><a href="about.html">Sustainabiliy</a></li>
             </ul>
             </div>
             <div>
                 <h4 class="foot_hds">Contact us</h4>
             <ul class="cn_us">
-                <li><a href="#"><i class="fas fa-phone-alt"></i>+234 805 084 7102</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i> core7@gmail.com</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"></i> &nbsp; +234 805 084 7102</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> &nbsp;core7@gmail.com</a></li>
                 <li class="social_icons"><a href="facebook.com" id="facebook"><i class="uil uil-facebook-f"></i></a><a href="instagram.com" class="instagram"><i class="uil uil-instagram"></i></a><a href="twitter.com" class="twitter"><i class="uil uil-twitter"></i></a></li>
             </ul>
             </div>
@@ -256,12 +249,12 @@
             </div>
         </div>
         <div class="cud">
-        <form action="mailto:core7@gmail.com"   class="contact_form">
-            <label for="mail">Email address</label>
-            <input type="email" required name="mail" id="mail">
+        <form action="contact-form-handler.php"   class="contact_form">
+            <label for="email">Email address</label>
+            <input type="email" required name="email" id="email">
             <label for="message">Message</label>
             <textarea placeholder="Message" required name="message" id="message" cols="30" rows="10"></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit" id="contact_button">Send Message</button>
         </form>
         </div>
         <div id="times-cont"><i class="uil uil-times"></i></div>
